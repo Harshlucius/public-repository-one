@@ -25,31 +25,3 @@ int main(){
     print(a,size);
     return 0;
 }
-// #include<stdio.h>
-// void print(int arr[],int size)
-// {
-//     for(int i=0;i<size;i++){
-//         printf("%d ", arr[i]);
-//     }
-//     printf("\n");
-// }
-// void sort(int arr[],int size){
-//     int temp;
-//     for(int i=0;i<size-1;i++){//4
-//         for(int j=0;j<size-1;j++){//4
-//            if(arr[j]<arr[j+1]) {
-//             temp = arr[j];
-//             arr[j]=arr[j+1];
-//             arr[j+1] = temp;
-//            }
-//         }
-//     }
-// }
-// int main(){
-//     int arr[] = {5,4,7,1,2};
-//     int size = sizeof(arr)/sizeof(arr[3]);//5
-//     print(arr,size);
-//     sort(arr,size);
-//     print(arr,size);
-// }
-
