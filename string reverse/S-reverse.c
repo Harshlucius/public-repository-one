@@ -1,15 +1,17 @@
-#include<stdio.h>
-int main(){
-    char a[25];
-    int size = printf("enter the value of the string : ");
-    scanf("%s", &a);
-    int i=0;
-    char b[size];
-    while(i<size){
-        b[size]=a[i];
-        i++;
+#include <stdio.h>
+int main() {
+    char a[50];
+    printf("Enter the value of the string: ");
+    scanf("%s", a);
+
+    int size = 0;
+    while (a[size] != '\0') {
+        size++;
     }
-    for (i=0;i<=size;i++){
-        printf("%c", b[i]);
+
+    for (int i = size - 1; i >= 0; i--) {
+        printf("%c", a[i]);
     }
+
+    return 0;
 }
