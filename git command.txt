@@ -1,2 +1,27 @@
 Github ==> Website that allows developers to store and manage their code using Git
 [https://github.com].
+
+1. Configure Git:-
+    a) git config --global user.name "My Name"
+    b) git config --global user.email "someone@email.com"
+    c) git config --list
+2. Clone :-
+        Cloning a repository on our local machine.
+            git clone <-some link->
+3. Status :-
+        Displays the state of the code.
+            git status 
+4. untracked :-
+        new files that git doesn't yet track.
+5. modified :-
+        changed
+6. staged :-
+        file is ready to be committed.
+7. Unmodified :-
+        unchanged
+8. add :-
+        adds new or changed files in your working directory to the Git staging area.
+            git add <-file name->
+9. commit :-
+        it is the record of change.
+            git commit -m "some message"
